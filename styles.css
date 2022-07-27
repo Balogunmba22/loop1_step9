@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #000000;
+}
+
+main {
+    background-color: #f5c66b;
+    width: 87%;
+    height: 100vh;
+    margin: auto;
+    padding: 10rem;
+    display: grid;
+    grid-template-columns: 17.5rem 31rem;
+    justify-content: center;
+    align-content: center;
+}
+section {
+    height: 26.5rem;
+    padding: 2.3rem;
+    overflow-y: hidden;
+}
+section:hover {
+    overflow-y: scroll;
+}
+section::-webkit-scrollbar {
+    width: .45rem;
+  }
+section::-webkit-scrollbar-thumb {
+    background-color: grey;  
+    border-radius: 25px; 
+  }
+.box-1 {
+    background-color: #f1eff1;
+}
+.box-1 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.3rem;
+    font-size: larger;
+}
+.cards {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: .55rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+.last-card {
+    margin-bottom: 0;
+}
+.cards:hover {
+    border: 2px solid darkblue;
+}
+.cards img {
+    width: 3.7rem;
+    margin-bottom: .5rem;
+}
+.card-pin, .exp-date {
+    color: rgba(0, 0, 0, 0.8);
+}
+.exp-date {
+    font-size: 14px;
+}
+.box-2 {
+    background-color: #ffffff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.box-2 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.3rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #f1eff1;
+    font-size: larger;
+}
+.box-2 header sup {
+    font-size: .7em;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.details .info {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+}
+.details img {
+    height: 1.3rem;
+    width: 1.3rem;
+    border: 2px solid #f1eff1;
+    border-radius: 50%;
+}
+.details sup {
+    font-size: 10px;
+}
+.last-detail {
+    margin-bottom: 0;
+}
+.text {
+    font-size: larger;
+    font-weight: bolder;
+    line-height: 1.3rem;
+}
+#hashtag {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: lighter;
+}
+.price {
+    color: #5464dc;
+    font-weight: bolder;
+}
+#price {
+    color: #80c656;
+    font-weight: bolder;
+}
